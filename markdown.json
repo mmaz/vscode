@@ -8,7 +8,7 @@
 	"codeblock_bash" : {
 		"prefix": ["vb"],
 		"body": ["```bash", "$TM_SELECTED_TEXT", "```"],
-		"description": "markdown codeblock for bash"
+		"description": "markdown codeblock "
 	},
 	"codeblock_cpp" : {
 		"prefix": ["vc"],
@@ -20,9 +20,14 @@
 		"body": ["```python", "$TM_SELECTED_TEXT", "```"],
 		"description": "markdown codeblock for python"
 	},
-	"codeblock_inline_surround" : {
+	"codeblock_inline_surround_paste" : {
 		"prefix": ["`"],
 		"body": ["`$CLIPBOARD`"],
-		"description": "inline markdown code"
+		"description": "inline markdown code from paste"
+	},
+	"codeblock_inline_surround_select" : {
+		"prefix": ["vs"],
+		"body": ["`$TM_SELECTED_TEXT`"],
+		"description": "inline markdown code from selection"
 	}
 }
