@@ -1,6 +1,6 @@
 conveniences for vscode
 
-Intellisense:
+## Intellisense
 
 https://code.visualstudio.com/docs/editor/intellisense
 
