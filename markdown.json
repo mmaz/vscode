@@ -1,0 +1,14 @@
+{
+	// https://code.visualstudio.com/docs/editor/userdefinedsnippets
+  // code -> preferences -> user snippets
+	"codeblock_cpp" : {
+		"prefix": ["vc"],
+		"body": ["```c++", "$TM_SELECTED_TEXT", "```"],
+		"description": "markdown codeblock for c++"
+	},
+	"codeblock_python" : {
+		"prefix": ["vp"],
+		"body": ["```python", "$TM_SELECTED_TEXT", "```"],
+		"description": "markdown codeblock for python"
+	}
+}
