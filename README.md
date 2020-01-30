@@ -1,10 +1,20 @@
 conveniences for vscode
 
+## snippets
+
 ## Intellisense
 
 https://code.visualstudio.com/docs/editor/intellisense
 
 `control + space` on OSX
+
+
+### markdown 
+
+select text, `command + shift + p` -> snippet for codeblock
+or
+`insert mode` -> vp -> `ctrl + space`
+
 
 ## Catkin support for `compile_commands.json`
 
