@@ -1,6 +1,6 @@
 conveniences for vscode
 
-## snippets
+
 
 ## Intellisense
 
@@ -8,6 +8,7 @@ https://code.visualstudio.com/docs/editor/intellisense
 
 `control + space` on OSX
 
+## snippets
 
 ### markdown 
 
