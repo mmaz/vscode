@@ -1,5 +1,15 @@
 {
 	// https://code.visualstudio.com/docs/editor/userdefinedsnippets
+	"codeblock_nolang" : {
+		"prefix": ["vn"],
+		"body": ["```", "$TM_SELECTED_TEXT", "```"],
+		"description": "markdown codeblock with no language specified"
+	},
+	"codeblock_bash" : {
+		"prefix": ["vb"],
+		"body": ["```bash", "$TM_SELECTED_TEXT", "```"],
+		"description": "markdown codeblock for bash"
+	},
 	"codeblock_cpp" : {
 		"prefix": ["vc"],
 		"body": ["```c++", "$TM_SELECTED_TEXT", "```"],
