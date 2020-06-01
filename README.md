@@ -52,3 +52,13 @@ To create the `c_cpp_properties.json` file in your project workspace:
     "version": 4
 }
 ```
+
+### ignore 2-space indentation in python
+
+add to `.vscode/settings.json`: ([h/t](https://github.com/microsoft/vscode-python/issues/130))
+
+```
+"python.linting.pylintArgs": [
+    "--indent-string=\"  \""
+]
+```
