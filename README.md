@@ -62,3 +62,26 @@ add to `.vscode/settings.json`: ([h/t](https://github.com/microsoft/vscode-pytho
     "--indent-string=\"  \""
 ]
 ```
+
+
+### New vscode-vim install
+
+Edit `settings.json` to bind `p` in visual mode to paste without overriding the current register:
+
+```
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        }
+    ]
+```
+
+[docs](https://github.com/VSCodeVim/Vim#viminsertmodekeybindingsnonrecursivenormalmodekeybindingsnonrecursivevisualmodekeybindingsnonrecursiveoperatorpendingmodekeybindingsnonrecursive)
