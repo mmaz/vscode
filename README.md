@@ -1,6 +1,8 @@
 conveniences for vscode
 
+## Python: fix interactive mode conflict with run-in-terminal
 
+https://superuser.com/a/1570406
 
 ## Intellisense
 
