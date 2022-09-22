@@ -68,7 +68,7 @@ add to `.vscode/settings.json`: ([h/t](https://github.com/microsoft/vscode-pytho
 
 ### New vscode-vim install
 
-Edit `settings.json` to bind `p` in visual mode to paste without overriding the current register:
+Edit `settings.json` (opened by using the icon at the top right after opening settings with e.g., `cmd+,`) to bind `p` in visual mode to paste without overriding the current register:
 
 ```
     "vim.visualModeKeyBindingsNonRecursive": [
