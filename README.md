@@ -5,14 +5,12 @@ conveniences for vscode
 Shortcut to the terminal is built in on both Mac + Linux: ``ctrl + ` ``
 on vscode.dev in mac you can also use `Cmd + J`
 
-To return to the active editor, you have to either use the command `Focus Active Editor` or create a shortcut in `keybindings.json`
+To return to the active editor, you have to either use the command `Focus Active Editor` or create a shortcut in `keybindings.json` (see https://www.youtube.com/watch?v=nzNyIinEcJA&t=66s for a walkthrough)
 
 ```json
 { "key": "ctrl+1",  "command": "workbench.action.focusActiveEditorGroup",
                     "when": "terminalFocus" },
-// see https://www.youtube.com/watch?v=nzNyIinEcJA&t=66s for a walkthrough
 ```
-
 
 ## Python: fix interactive mode conflict with run-in-terminal
 
