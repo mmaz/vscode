@@ -7,6 +7,8 @@ on vscode.dev in mac you can also use `Cmd + J`
 
 To return to the active editor, you have to either use the command `Focus Active Editor` or create a shortcut in `keybindings.json` (see https://www.youtube.com/watch?v=nzNyIinEcJA&t=66s for a walkthrough)
 
+`Cmd+Shift+P` -> `Preferences: Open Keyboard Shortcuts (JSON)` (NOT the one that says "Default" shortcuts, which is readonly)
+
 https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal
 
 ```json
